@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+.hero{
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-26\ at\ 12.14.04_c7cf2e86.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+.overlay{
+    background-color: rgba(245, 243, 220, 0.2);
+    min-height: 90vh;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(245, 245, 220, 0.7);
+    height: 90px;
+
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+
+}nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #ff9800;
+    margin-top: 30px;
+}
+nav a:hover{
+    color: white;
+}
+nav button{
+    height: 100px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0.1);
+    color: #ff9800;
+    margin-right: 50px;
+    border: 1px;
+    border-radius: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+nav button:hover{
+    color: white;
+}
+.logo{
+    position: absolute;
+    height: auto;
+    left: 100px;
+    width: 150px;
+    margin-top: 10px;
+}
+.hero-txt{
+    padding-top: 200px;
+    text-align: center;
+    color: #ff9800;
+    font-size: 60px;
+}
+.hero-txt-2{
+
+    text-align: center;
+    font-size: 40px;
+    color: rgb(76, 62, 62);
+}
+.adopt-btn{
+    height: 100%;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 470px;
+    margin-top: 10px;
+    border: 1px solid #c47908;
+    border-radius: 7px 0 7px 0;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #ff9800;
+}
+.adopt-btn:hover{
+    background-color: #f5f5f5;
+    color: #7e500d;
+}
+.how-it-works{
+    background-color: bisque;
+    padding: 30px 0;
+}
+.how-it-works ol{
+    padding-left: 20px;
+}
+.how-it-works ol li{
+    height: 10vh;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.txt{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #7e500d;
+    border: 5px solid #ff9800;
+    border-radius: 10px;
+}
+.txt-2{
+    text-align: center;
+    font-size: 20px;
+    color: #7e500d;
+}
+.adopt-journey{
+    height: 100%;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-left: 200px;
+    margin-top: 10px;
+    border: 1px solid #c47908;
+    border-radius: 7px 0 7px 0;
+    cursor: pointer;
+    color: #ff9800;
+}
+.adopt-journey:hover{
+    background-color: #ff9800;
+    color: #f5f5f5;
+}
+.third-sec{
+    background-color: #ff990085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    padding: 32px;
+}
+.carousel-indicators{
+    bottom: -60px;
+}
+.carousel-control-prev, .carousel-control-next{
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #ff9800;
+}
+.carousel-control-prev-icon{
+    width: 20px;
+    height: 20px;
+    left: -150px;
+}
+.carousel-control-next-icon{
+    width: 20px;
+    height: 20px;
+    right: -150px;
+}
+.success-testimonials{
+    background-color: #efcd9b;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+.success-testimonials h2 {
+    font-size: 28px;
+    color: #7e500d;
+    margin-bottom: 30px;
+    font-weight: bold;
+    border: 3px solid #ff9800;
+    border-radius: 10px;
+  }
+.testimonial-container{
+    display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+  }
+  
+  .testimonial-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-parent {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  .footer{
+    min-height: 40vh;
+    background-color: #4a310c;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  .footer-logo{
+    width: 300px;
+    margin-left: 420px;
+  }
+  .copyright{
+    color: #ff9800;
+    text-align: center;
+    font-size: 15px;
+
+  }
+    
